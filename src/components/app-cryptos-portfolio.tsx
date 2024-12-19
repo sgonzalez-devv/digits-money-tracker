@@ -97,7 +97,7 @@ export default function AppCryptoPortfolio() {
                 </Dialog>
 
             </CardHeader>
-            <CardContent className="flex">
+            <CardContent className="flex items-center gap-5">
                 <div>
                     <CryptoPieChart />
                 </div>
@@ -133,7 +133,7 @@ export default function AppCryptoPortfolio() {
 
 const CryptoPieChart = () => {
     return (
-        <Card className="flex flex-col">
+        <Card className="flex flex-col border-0 shadow-none">
             <CardHeader className="items-center pb-0">
                 <CardDescription>Coin Allocation</CardDescription>
             </CardHeader>

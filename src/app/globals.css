@@ -4,11 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-  border: none;
-}
 body {
   font-family: "Afacad Flux", Helvetica, sans-serif;
+  padding: 0 !important;
+  overflow-y: auto !important;
 }
 
 @layer base {

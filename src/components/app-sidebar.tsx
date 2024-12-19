@@ -1,4 +1,4 @@
-import { Wallet, Home, Settings, Building2, Goal } from "lucide-react"
+import { TrendingUpDown, Wallet, Home, Settings, Building2, Goal } from "lucide-react"
 import {
     Sidebar,
     SidebarContent,
@@ -27,9 +27,14 @@ const items = [
         icon: Goal,
     },
     {
+        title: "Crypto Wallets",
+        url: "/crypto-wallets",
+        icon: Wallet,
+    },
+    {
         title: "Income & Expenses",
         url: "/money-management",
-        icon: Wallet,
+        icon: TrendingUpDown,
     },
     {
         title: "Settings",

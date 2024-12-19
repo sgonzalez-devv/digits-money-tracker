@@ -53,7 +53,7 @@ export function AppPieDonutChart({
     }, [chartData]);
 
     return (
-        <Card className="flex flex-col">
+        <Card className="flex flex-col border-0 shadow-none">
             <CardHeader className="items-center pb-0">
                 <CardTitle>{chartTitle}</CardTitle>
                 <CardDescription>{chartDescription}</CardDescription>

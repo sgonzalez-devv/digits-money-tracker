@@ -2,8 +2,8 @@
 
 import { ChartContainer, type ChartConfig } from "@/components/ui/chart"
 import { ChartTooltip, ChartTooltipContent } from "@/components/ui/chart"
-import { ChartConfiguration } from "@/types/barChartTypes/chartConfig"
-import { ChartDataItem } from "@/types/barChartTypes/chartData"
+import { ChartConfiguration } from "@/types/chartConfig"
+import { ChartDataItem } from "@/types/chartData"
 import { Bar, BarChart, CartesianGrid, XAxis } from "recharts"
 
 type Props = {
